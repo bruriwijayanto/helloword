@@ -1,0 +1,20 @@
+{
+    "name": "bruri/hello",
+    "description": "My first package",
+    "require-dev": {
+        "php": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "Bruri Wijayanto",
+            "email": "bruriwijayanto@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
